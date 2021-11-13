@@ -14,6 +14,9 @@
 			-webkit-touch-callout:none;
 			-webkit-user-drag:none;
 		}
+	        div.trial_banner {
+			display: none!important;
+	    	}
 		#playerView * {
 			position:absolute;
 		}
@@ -161,6 +164,8 @@
 	lms.initialize(start);
 })
 );
+	    
+	    document.getElementsByClassName("trial_banner")[0].innerHTML = "";
     </script>
 </body>
 </html>
